@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #fff23a;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #fff23a; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+.submit {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#3e4280;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:20px;
+  font-weight:700;
+}
+
+.reset { 
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 50%;
+    background:#ff0f0f;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:50px;
+    margin-left:100px;
+    font-weight:700;
+}
+
+.backPlayers { 
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 50%;
+    background:#1a0bf1;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:150px;
+    margin-left:100px;
+    font-weight:700;
+}
+
+.home { 
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 50%;
+    background:#1a0bf1;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:150px;
+    margin-left:100px;
+    font-weight:700;
+}
+
+.addMore { 
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#000000;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:0px;
+    font-weight:700;
+}
+
+.tableButton { 
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 50%;
+    background:#fff23a;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:#3e4280;
+    font-size:18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:80px;
+    margin-left:100px;
+    font-weight:700;
+}
+
+[type="submit"]:hover { background:#fff23a; }
+
+body { 
+    background-image: url(https://cdn.svgator.com/images/2022/06/use-svg-as-background-image-particle-strokes.svg);
+   
+}
+
+.p1 { 
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    color: #ffffff;
+}
+
+.mainTitle { 
+    color: #fff23a;
+    padding: 0px;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight:700;
+}
+
+
+
+.logo { 
+    width: 125px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+
+}
+
+.passerName{ 
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    
+}
+
+.passScore { 
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.passNum { 
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#3e4280;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:20px;
+  font-weight:700;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.999em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #dddddd;
+    
+}
+.styled-table thead tr {
+    background-color: #fff23a;
+    color: #000000;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #3e4280;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ffffff;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #ffffff;
+}
